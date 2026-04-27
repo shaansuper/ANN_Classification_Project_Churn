@@ -23,7 +23,8 @@ with open('scaler.pkl','rb') as file:
 
 #Streamlit app
 
-st.title('Avishek's Predictor of Customer Retention')
+st.title('Prediction model of Customer Retention')
+st.text('-Created by Avishek Chatterjee')
 
 
 #Take User Input
