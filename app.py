@@ -23,7 +23,7 @@ with open('scaler.pkl','rb') as file:
 
 #Streamlit app
 
-st.title('Customer Churn Prediction')
+st.title('Avishek's Predictor of Customer Churn/Retention')
 
 
 #Take User Input
