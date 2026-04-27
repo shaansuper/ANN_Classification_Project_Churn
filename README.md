@@ -6,8 +6,8 @@ Customer churn prediction helps businesses identify customers likely to leave. T
 
 ## 🚀 Live Demo
 
-> Run locally using the steps below or deploy to [Streamlit Community Cloud](https://streamlit.io/cloud).
-
+>
+https://churn-customer-project.streamlit.app/
 ---
 
 ## 🗂️ Project Structure
@@ -21,6 +21,7 @@ Customer churn prediction helps businesses identify customers likely to leave. T
 ├── scaler.pkl # Saved preprocessing objects
 ├── requirements.txt # Python dependencies
 ├── logs/ # TensorBoard training logs
+├── runtime.txt/ #Python Environment Version
 └── README.md
 
 
