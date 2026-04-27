@@ -23,7 +23,7 @@ with open('scaler.pkl','rb') as file:
 
 #Streamlit app
 
-st.title('Avishek's Predictor of Customer Churn/Retention')
+st.title('Avishek's Predictor of Customer Retention')
 
 
 #Take User Input
@@ -76,6 +76,6 @@ prediction=my_model.predict(input_data_scaled)
 st.write(f"Churn Probability: {prediction[0][0]:.2f}")
 
 if(prediction[0][0]>0.5):
-    st.write("The Customer will churn")
+    st.write("The Customer is likely to retain")
 else:
-    st.write("The customer will not churn")
+    st.write("The customer is not likely to retain")
